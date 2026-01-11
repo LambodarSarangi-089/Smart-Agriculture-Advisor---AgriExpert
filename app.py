@@ -93,7 +93,7 @@ client = OpenAI(base_url="https://api.dhenu.ai/v1", api_key=DHENU_API_KEY)
 # -------------------------------
 # Weather API key (provided)
 # -------------------------------
-WEATHER_API_KEY = "a7912fbcc99e1ff4f9f82b7cd56b7fec"
+WEATHER_API_KEY = ""
 
 # -------------------------------
 # Mapping for Indian language native scripts for transliteration
@@ -347,3 +347,4 @@ def chat_route():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
